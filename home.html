@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>GamiFy</title>
+        <link rel = "stylesheet" href="home.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> 
+        <body bgcolor ="lightgrey">
+            <nav id ="navbar">
+                <ul>
+                    <li class="dropdown">
+                        <button class="dropbtn">Categoires</button>
+                        <div class="dropdown-content">
+                          <a href="#">Action</a>
+                          <a href="#">Puzzle</a>
+                          <a href="#">Sports</a>
+                          <a href="#">Strategy</a>
+                        </div>
+                      </li>
+                    <li ><a href = "#More">More</a></li>
+                   
+                   
+                    <li><a href="#About">About</a></li>
+                    <li><a href=""><i class ="fa fa-fw fa-news">News</i></a></li>
+                   
+                    <li id="L"><a href ="login.html" id="lg"><i class ="fa fa-fw fa-user">sign in/Register</i></a></li>
+                </ul>
+            </nav>
+            <section class="home" data-aos="fade-down">
+                <br>
+                <h1>Welcome</h1>
+                <h3> To Gaming Platform </h3>
+                <div class="btn">
+                <input type="button" value="Start" id = "button">
+            </div>
+            </section>
+          
+            <section class="More" data-aos="fade-up">
+              
+                <h1 id="Mo">More about<br>
+                             This website</h1>
+          <p>HEy</p>
+            </section>
+            <section id="About" data-aos="fade-right">
+            <h1 id = "h"> About Me</h1>
+            <p>Currently I am studing , but designing this website for fun.</p>
+            <form>
+               <p> Your Thoughts about this:</p><br>
+                <input type="text" cols="100" rows="80" id = "text">
+            </form>
+            </section>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+           offset:120,
+            duration:1000,
+             });
+  </script>
+        </body>
+    </head>
+</html>
